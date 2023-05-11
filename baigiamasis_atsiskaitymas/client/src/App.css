@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .app-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+}
